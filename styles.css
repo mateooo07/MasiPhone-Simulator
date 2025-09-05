@@ -1,0 +1,85 @@
+:root {
+  --bg:#f6f7fb;
+  --card:#fff;
+  --accent:#2563eb;
+  --danger:#dc2626;
+  --success:#16a34a;
+}
+
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--bg);
+}
+
+.header {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 2rem;
+  background:#fff;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+.header h1 { margin:0; font-size:1.2rem; }
+.controls {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+}
+.controls input, .controls select, .controls button {
+  padding:.4rem .6rem;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+.controls button {
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  cursor:pointer;
+}
+
+.container { display:flex; gap:1rem; padding:1rem; }
+.productos {
+  flex:1;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:1rem;
+}
+.card {
+  background:var(--card);
+  padding:1rem;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.05);
+  display:flex;
+  flex-direction:column;
+  gap:.4rem;
+}
+.card img { width:100%; height:140px; object-fit:cover; border-radius:6px; }
+.card button { background:var(--accent); color:#fff; border:none; padding:.4rem; border-radius:6px; cursor:pointer; }
+
+.sidebar {
+  width:280px;
+  background:var(--card);
+  padding:1rem;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+#cartList { list-style:none; padding:0; margin:0; }
+#cartList li {
+  display:flex; justify-content:space-between;
+  padding:.3rem 0; border-bottom:1px solid #eee;
+}
+.cart-summary { margin-top:1rem; display:flex; flex-direction:column; gap:.4rem; }
+.cart-summary button { padding:.5rem; border:none; border-radius:6px; cursor:pointer; }
+#vaciarCarritoBtn { background:var(--danger); color:#fff; }
+#finalizarBtn { background:var(--success); color:#fff; }
+
+.modal {
+  display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+  background:rgba(0,0,0,0.4); justify-content:center; align-items:center;
+}
+.modal-content {
+  background:#fff; padding:1rem; border-radius:8px; max-width:400px; width:90%;
+}
+.close { float:right; font-size:1.4rem; cursor:pointer; }

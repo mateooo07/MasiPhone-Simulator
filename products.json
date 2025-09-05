@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 14 Pro",
+    "description": "Pantalla Super Retina XDR, chip A16 Bionic.",
+    "price": 999,
+    "stock": 8,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_780305-MLA89749250862_082025-O.webp"
+  },
+  {
+    "id": 2,
+    "title": "iPhone 13",
+    "description": "Pantalla OLED de 6.1 pulgadas, chip A15 Bionic.",
+    "price": 799,
+    "stock": 10,
+    "image": "https://www.icserveis.com/wp-content/uploads/2023/09/iphone-13.jpg"
+  },
+  {
+    "id": 3,
+    "title": "MacBook Air M2",
+    "description": "Procesador Apple M2, 8GB RAM, 256GB SSD.",
+    "price": 1199,
+    "stock": 6,
+    "image": "https://i.blogs.es/ae42e3/macbook-air-colores/450_1000.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "MacBook Pro 14",
+    "description": "Pantalla Liquid Retina XDR, chip M2 Pro.",
+    "price": 1999,
+    "stock": 4,
+    "image": "https://photographylife.com/wp-content/uploads/2022/06/Apple_MacBook-Pro_14-16-inch_10182021-1.jpg"
+  },
+  {
+    "id": 5,
+    "title": "iPad Pro 12.9",
+    "description": "Pantalla Liquid Retina XDR, chip M2.",
+    "price": 1099,
+    "stock": 7,
+    "image": "https://back.maximstore.com/static/images/6c77e2ea-7854-4236-aec6-9cd6bc043497.png"
+  },
+  {
+    "id": 6,
+    "title": "iPad Air 5",
+    "description": "Pantalla Liquid Retina de 10.9 pulgadas, chip M1.",
+    "price": 599,
+    "stock": 9,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMCGLSFc0QsiO40Db9nofVSCM-0fQKz6NI8w&s"
+  },
+  {
+    "id": 7,
+    "title": "Apple Watch Series 8",
+    "description": "Detección de accidentes, sensor de temperatura.",
+    "price": 399,
+    "stock": 12,
+    "image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple-Watch-SE-8up-hero-220907_big.jpg.large.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Apple Watch SE",
+    "description": "Funciones esenciales con diseño moderno.",
+    "price": 249,
+    "stock": 15,
+    "image": "https://www.sportswearable.net/wp-content/uploads/2022/01/applewatch8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "AirPods Pro 2",
+    "description": "Cancelación activa de ruido y audio espacial.",
+    "price": 249,
+    "stock": 20,
+    "image": "https://i.blogs.es/c2948f/correa/650_1200.jpg"
+  },
+  {
+    "id": 10,
+    "title": "AirPods Max",
+    "description": "Auriculares inalámbricos con audio espacial.",
+    "price": 549,
+    "stock": 5,
+    "image": "https://www.apple.com/v/airpods-max/i/images/meta/airpods-max_overview__c2mz40a3bugm_og.png"
+  },
+  {
+    "id": 11,
+    "title": "HomePod Mini",
+    "description": "Altavoz inteligente con Siri integrado.",
+    "price": 99,
+    "stock": 18,
+    "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-mini-select-202210_FMT_WHH?wid=640&hei=600&fmt=jpeg&qlt=90&.v=K2c3bEwyaWVDeDZkdHpLbHkwcGVSdTdDVDVERHBLL2VtUTFvVE43TmZrSzc4eDJCaDRrRjRGRllyc0RvWW00Rk1LWlMyVmEreEd6UVBWaXRHdkpLMXRJWUFJQ0NMbUZLT01BeHpMbHhoWEV5eWpsNVpNNEJ0ZVQxNDYrZU9iQ2k"
+  },
+  {
+    "id": 12,
+    "title": "Apple TV 4K",
+    "description": "Centro de entretenimiento con Dolby Vision.",
+    "price": 129,
+    "stock": 10,
+    "image": "https://stylewatch.vtexassets.com/arquivos/ids/261350/SmartTV_Apple_MN893LEA_01.jpg?v=638600339017500000"
+  },
+  {
+    "id": 13,
+    "title": "Magic Keyboard",
+    "description": "Teclado retroiluminado con trackpad integrado.",
+    "price": 299,
+    "stock": 14,
+    "image": "https://i5.walmartimages.com/seo/Apple-Magic-Keyboard-iPad-Keyboard-case-iPad-Pro-11-inch-1st-2nd-3rd-4th-gen-iPad-Air-4th-5th-gen-M2-Great-Typing-Experience-Built-in-trackpad-US-Eng_28c54f7b-ab3a-4d5d-8cac-fe80a4027f62.159bd980e693c1ff0adb4bedffee0228.jpeg"
+  },
+  {
+    "id": 14,
+    "title": "Magic Mouse 2",
+    "description": "Diseño minimalista con superficie Multi-Touch.",
+    "price": 79,
+    "stock": 25,
+    "image": "https://acdn-us.mitiendanube.com/stores/001/897/262/products/mla02bea-411-a4e1437fbbe411ca9716347437386395-640-01-eebd0624abb6888fa916470994937327-1024-1024.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Cargador MagSafe",
+    "description": "Carga rápida inalámbrica para iPhone.",
+    "price": 39,
+    "stock": 30,
+    "image": "https://cdn-ipoint.waugi.com.ar/27411-large_default/cargador-apple-magsafe-usb-c.jpg"
+  }
+]

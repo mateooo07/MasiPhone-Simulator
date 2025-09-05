@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>iStore Argentina</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>iStore</h1>
+    <div class="controls">
+      <input type="text" id="buscarInput" placeholder="Buscar productos...">
+      <select id="filtroPrecio">
+        <option value="all">Todos los precios</option>
+        <option value="low">Menos de $100</option>
+        <option value="mid">$100 - $300</option>
+        <option value="high">Más de $300</option>
+      </select>
+      <button id="verCarritoBtn">Carrito (<span id="cartCount">0</span>)</button>
+      <button id="verHistorialBtn">Historial</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="productos" class="productos">
+      <!-- Productos desde JS -->
+    </section>
+
+    <aside class="sidebar" id="sidebar">
+      <h2>Carrito</h2>
+      <ul id="cartList"></ul>
+      <div class="cart-summary">
+        <p>Total: <span id="cartTotal">$0.00</span></p>
+        <button id="vaciarCarritoBtn">Vaciar carrito</button>
+        <button id="finalizarBtn">Finalizar compra</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Modal casero -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/data.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
