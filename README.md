@@ -5,17 +5,6 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 
 ---
 
-## 📂 Estructura del proyecto
-ProyectoFinal+Pavoni/
-├─ index.html # Página principal
-├─ styles.css # Estilos generales
-├─ products.json # Base de datos de productos
-├─ js/
-│ ├─ data.js # Carga de datos (fetch JSON)
-│ └─ app.js # Lógica de la aplicación
-
----
-
 ## ⚙️ Funcionalidades principales
 - **Carga de productos desde JSON** usando `fetch`.
 - **Carrito de compras interactivo** con:
@@ -53,9 +42,7 @@ ProyectoFinal+Pavoni/
      python -m http.server
      ```
 4. Abrir el navegador en `http://localhost:8000` y probar el sitio.
-
-⚠️ Si abrís `index.html` con doble click (modo `file://`), algunos navegadores bloquean `fetch` por seguridad. Por eso es mejor correrlo con servidor local.
-
+   
 ---
 
 ## 📦 Productos
