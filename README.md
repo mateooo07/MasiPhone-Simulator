@@ -1,11 +1,11 @@
-# 🛒 ProyectoFinal - Pavoni
+# ProyectoFinal - Pavoni
 
 Simulador de **Ecommerce** desarrollado en **HTML, CSS y JavaScript** como proyecto final.  
 El sitio permite explorar productos de Apple, agregarlos al carrito, simular compras y guardar un historial.  
 
 ---
 
-## ⚙️ Funcionalidades principales
+## Funcionalidades principales
 - **Carga de productos desde JSON** usando `fetch`.
 - **Carrito de compras interactivo** con:
   - Agregar productos.
@@ -23,7 +23,7 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 
 ---
 
-## 🛠️ Tecnologías usadas
+## Tecnologías usadas
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
@@ -32,7 +32,7 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 1. Clonar este repositorio o descargarlo en formato `.zip`.
 2. Abrir la carpeta del proyecto.
 3. Iniciar un servidor local (recomendado):
@@ -45,13 +45,13 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
    
 ---
 
-## 📦 Productos
+## Productos
 El archivo [`products.json`](products.json) contiene **15 productos reales de Apple** (iPhone, MacBook, iPad, AirPods, etc.).  
 Los `image` son placeholders (`via.placeholder.com`).  
 👉 Podés reemplazarlos por imágenes reales guardadas en una carpeta `assets/`.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 **Mateo Pavoni**  
 Proyecto Final - Curso de JavaScript
