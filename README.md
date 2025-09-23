@@ -41,6 +41,14 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 El archivo [`products.json`](products.json) contiene **15 productos reales de Apple** (iPhone, MacBook, iPad, AirPods, etc.).  
 
 ---
+
+## Cómo clonar el repositorio
+
+```bash
+git clone https://github.com/mateooo07/MasiPhone-Simulator.git
+cd MasiPhone-Simulator
+```
+---
 ##  Contacto
 
 Creado por **Mateo Pavoni**  
