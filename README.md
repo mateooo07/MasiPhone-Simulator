@@ -1,7 +1,12 @@
-# ProyectoFinal - Pavoni
+# MasiPhone Simulator
 
 Simulador de **Ecommerce** desarrollado en **HTML, CSS y JavaScript** como proyecto final.  
 El sitio permite explorar productos de Apple, agregarlos al carrito, simular compras y guardar un historial.  
+
+---
+## Sitio Web
+
+[Ver sitio publicado en Netlify](simulador-ecommerce-masiphone.netlify.app)
 
 ---
 
@@ -29,29 +34,14 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 - **JavaScript (ES6+)**
 - **JSON** como base de datos estática
 - **LocalStorage** para persistencia de datos en el navegador
-
----
-
-## Cómo ejecutar
-1. Clonar este repositorio o descargarlo en formato `.zip`.
-2. Abrir la carpeta del proyecto.
-3. Iniciar un servidor local (recomendado):
-   - En VSCode: usar la extensión **Live Server**.
-   - O desde consola:
-     ```bash
-     python -m http.server
-     ```
-4. Abrir el navegador en `http://localhost:8000` y probar el sitio.
    
 ---
 
 ## Productos
 El archivo [`products.json`](products.json) contiene **15 productos reales de Apple** (iPhone, MacBook, iPad, AirPods, etc.).  
-Los `image` son placeholders (`via.placeholder.com`).  
-👉 Podés reemplazarlos por imágenes reales guardadas en una carpeta `assets/`.
 
 ---
+##  Contacto
 
-## Autor
-**Mateo Pavoni**  
-Proyecto Final - Curso de JavaScript
+Creado por **Mateo Pavoni**  
+[mateopavoni6@gmail.com]   
