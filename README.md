@@ -6,7 +6,7 @@ El sitio permite explorar productos de Apple, agregarlos al carrito, simular com
 ---
 ## Sitio Web
 
-[Ver sitio publicado en Netlify](simulador-ecommerce-masiphone.netlify.app)
+[Ver sitio publicado en Netlify](https://simulador-ecommerce-masiphone.netlify.app)
 
 ---
 
